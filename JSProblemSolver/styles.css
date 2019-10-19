@@ -1,0 +1,129 @@
+.header {
+    width: 550px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.bottom {   
+    position: absolute;
+    width: 550px;
+    bottom: 0px;
+}
+
+.moveButton {
+    font-weight: bold;
+    font-size: 1em;
+    background-color: SaddleBrown;
+    color: Moccasin;
+}
+
+.right {      
+    width: 250px;
+    position: absolute;
+    right: 20px;
+}
+
+ul {          
+    list-style-type: none;
+}
+
+li {          
+    margin-left: -40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+.left {
+    width: 250px;
+    position: absolute;
+    left: 20px;
+    background-color: Moccasin;
+}
+
+.outer {
+    position: absolute; 
+    width: 550px;
+    height: 575px;
+    border: 5px solid gray;
+    padding: 10px;
+    margin: 10px;
+    background-color: LightBlue;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.largeBold {
+    font-size: large;
+    font-weight: bold;
+}
+
+.emphasized {
+    color: FireBrick;
+}
+
+.conMain {
+    position: absolute; 
+    width: 500px;
+    height: 650px;
+    border: 5px solid gray;
+    padding: 10px;
+    margin: 10px;
+    background-color: crimson;
+}
+
+.conHead {
+    position: absolute;
+    width: 250px;   
+    left: 125px;
+    top: 10px;
+    background-color: Moccasin;
+}
+
+.congrats {
+    position:absolute;
+    top:280px;
+    left:100px;
+    color: white;
+    font-size: 40px;
+}
+
+.conProb {
+    position:absolute;
+    top:330px;
+    left:65px;
+    color: white;
+    font-size: 30px;
+}
+
+.conMoveNum {
+    position:absolute;
+    top:370px;
+    left:220px;
+    color: black;
+    font-size: 50px;
+}
+
+.conMoves {
+    position:absolute;
+    top:430px;
+    left:200px;
+    color: white;
+    font-size:30px;
+}
+.conButtons {
+    position:absolute;
+    bottom:100px;
+    left:100px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border: 5px solid gray;
+}
